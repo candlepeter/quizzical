@@ -9,13 +9,14 @@ body {
   margin: 0;
   display: flex;
   justify-content: center;
+  align-items: center;
+  background-color: #f5f7fb;
 }
 
 .main-container {
   min-width: 300px;
   max-width: 1000px;
   padding: 2em 3em;
-  background-color: #f5f7fb;
 }
 
 .form {
@@ -154,8 +155,6 @@ option {
 }
 
 .loader {
-  height: 100dvh;
-  width: 100dvw;
   display: flex;
   justify-content: center;
   align-items: center;
