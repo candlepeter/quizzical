@@ -75,7 +75,7 @@ function QuestionCard(props) {
 
   return (
     <div className="question-wrapper">
-      <h3>{decodeURI(data.question)}</h3>
+      <h3>{data.question}</h3>
       <div className="answer-wrapper">{answers}</div>
     </div>
   );

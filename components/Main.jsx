@@ -113,7 +113,7 @@ function Main() {
   function displayFormOrQuestion() {
     if (start) {
       return (
-        <div>
+        <div className="question-container">
           {showQuestions()}
           {questionsData.length > 0 && displayBtn()}
         </div>
