@@ -13,6 +13,7 @@ body {
 
 .main-container {
   min-width: 300px;
+  max-width: 1000px;
   padding: 2em 3em;
   background-color: #f5f7fb;
 }
@@ -161,10 +162,6 @@ option {
 }
 
 @media screen and (min-width: 480px) {
-  .main-container {
-    max-width: 900px;
-  }
-
   .play-again {
     margin-left: 1em;
   }
